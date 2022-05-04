@@ -108,7 +108,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="top-aside top-left clearfix hidden-xs">
-						<p><strong>Plumbing in San Francisco &amp; surrounding areas.</strong></p>
+						<p><strong></strong></p>
 					</div>
 					<div class="top-aside top-right clearfix">
 						<ul class="social clearfix">
@@ -133,7 +133,7 @@
 		</div>
 		<!-- #end Topbar -->
 		<!-- Navbar -->
-		<div class="navbar navbar-primary">
+		<div class="navbar navbar-primary" style="z-index:100">
 			<div class="container">
 				<!-- Logo -->
 				<a class="navbar-brand" href="">
@@ -338,7 +338,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4 nopd">
-					<div class="feature feature-pro pd-x3 bg-light">
+					<div class="feature feature-pro pd-x3 bg-white">
 						<em class="fa fa-thumbs-o-up" aria-hidden="true"></em>
 						<h3>EM series chiller</h3>
 						<p>Lorem ipsum dolor sit amet consectur adipcing elit viverra dui nec suscipit venenatis.</p>
@@ -347,7 +347,7 @@
 
 				<!-- // -->
 				<div class="col-sm-4 nopd">
-					<div class="feature feature-pro pd-x3 bg-white">
+					<div class="feature feature-pro pd-x3 bg-light">
 						<em class="fa fa-calculator"></em>
 						<h3>Indoor Air Quality Products</h3>
 						<p>Lorem ipsum dolor sit amet consectur adipcing elit viverra dui nec suscipit venenatis.</p>
@@ -777,8 +777,8 @@
 	</div>
 	<div class="row">
 		<div class="container">
-			<section class="logo-carousel slider" data-arrows="true">
-				<div class="slide"><img src="./img/client/client60.jpg">
+			<section class="logo-carousel slider" data-arrows="true" id="logo_carousel">
+				<!-- <div class="slide"><img src="./img/client/client60.jpg">
 				</div>
 				<div class="slide"><img src="./img/client/client61.jpg">
 				</div>
@@ -793,7 +793,7 @@
 				<div class="slide"><img src="./img/client/client66.jpg">
 				</div>
 				<div class="slide"><img src="./img/client/client67.jpg">
-				</div>
+				</div> -->
 			</section>
 		</div>
 	</div>
@@ -826,7 +826,14 @@
 		</div>
 	</div>
 	<!-- End Copyright -->
-
+	<script>
+		document.getElementById('logo_carousel').innerHTML = '111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'.split('').map((el, i) =>
+			`
+	<div class="slide"><img src="./img/client/client${i + 1}.jpg">
+				</div>
+	`
+		).join('')
+	</script>
 	<!-- JavaScript Bundle -->
 	<script
 		src="./Home - Maintainance _ Plumbing - Plumber and Repair Services Template_files/jquery.bundle.js.download"></script>

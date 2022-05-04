@@ -10544,3 +10544,250 @@ body {
 .more-link:hover::after {
     left: -20%;
 }
+
+/* HERE */
+.wait_back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100000000000000;
+    display: none;
+}
+
+.wait {
+    position: fixed;
+    z-index: 1000;
+    margin: auto;
+    top: 48%;
+    left: 40%;
+    font-size: 40px;
+    color: #fff;
+    z-index: 1000000000000000;
+}
+
+
+.tooltip {
+    position: fixed;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+    right: 0;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+
+    box-shadow: 3px 3px 5px #333;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+    padding: 69px 0 10px;
+    position: relative;
+}
+
+.count-text {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -42px;
+    margin-left: 10px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text-2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -42px;
+    margin-left: -42px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text-3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -42px;
+    margin-left: 25px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text-4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -42px;
+    margin-left: -30px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.work-counter .drill-txt-xs {
+    color: #FFCD22;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 10px !important;
+}
+
+
+
+.call-new {
+
+    position: fixed;
+    right: 0;
+    bottom: 230px;
+    z-index: 99;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px; */
+    display: block;
+    /* border: 0px solid #fff; */
+    background-color: #fff;
+}
+
+
+
+.call-new-two {
+
+    position: fixed;
+    right: 0;
+    bottom: 190px;
+    z-index: 99;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px; */
+    display: block;
+    /* border: 0px solid #fff; */
+    background-color: #fff;
+
+}
+
+
+.call-new-three {
+
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 99;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border-top-left-radius: 7px;
+border-bottom-left-radius: 7px; */
+    display: block;
+    /* border: 0px solid #fff; */
+    background-color: #fff;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .count-text {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: -42px;
+        margin-left: 70px;
+        color: #fff;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .count-text-2 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: -42px;
+        margin-left: 50px;
+        color: #fff;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .count-text-3 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-left: 70px;
+        margin-top: -40px;
+        color: #fff;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .count-text-4 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: -40px;
+        margin-left: 50px;
+        color: #fff;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .tas {
+        text-align: center !important;
+    }
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 30%;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+
+    .navbar-brand {
+        width: 50% !important;
+
+    }
+}
+
+#color-switch {
+    display: none;
+}
